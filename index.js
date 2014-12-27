@@ -76,6 +76,12 @@ var List = function(id, options, values) {
     }
   };
 
+  /*
+  * Reindex list
+  */
+  this.reindex = function(callback) {
+    init.start();
+  };
 
   /*
   * Add object to list
